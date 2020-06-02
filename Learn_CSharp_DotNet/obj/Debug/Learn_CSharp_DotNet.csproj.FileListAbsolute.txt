@@ -1,0 +1,7 @@
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\bin\Debug\Learn_CSharp_DotNet.exe.config
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\bin\Debug\Learn_CSharp_DotNet.exe
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\bin\Debug\Learn_CSharp_DotNet.pdb
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\obj\Debug\Learn_CSharp_DotNet.csprojAssemblyReference.cache
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\obj\Debug\Learn_CSharp_DotNet.csproj.CoreCompileInputs.cache
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\obj\Debug\Learn_CSharp_DotNet.exe
+D:\Hieu_iceTea\Learn\SEM2\Learn_CSharp_FPT\Learn_CSharp_DotNet\obj\Debug\Learn_CSharp_DotNet.pdb
