@@ -10,17 +10,7 @@ namespace Learn_CSharp_DotNet
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = System.Text.Encoding.UTF8;
-
-            Console.WriteLine("Hiếu {0}", "Đẹp trai");
-
-            PressEnterToEnd();
-        }
-
-        static void PressEnterToEnd()
-        {
-            Console.WriteLine("Ấn phím [ENTER] để kết thúc");
-            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+            Book.Session_1.Run.Test();
         }
     }
 }
