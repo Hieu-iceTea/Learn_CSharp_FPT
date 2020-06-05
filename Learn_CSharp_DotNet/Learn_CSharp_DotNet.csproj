@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Book\Session_1\Run.cs" />
     <Compile Include="Book\Session_3\Run.cs" />
+    <Compile Include="Book\Session_4\Run.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

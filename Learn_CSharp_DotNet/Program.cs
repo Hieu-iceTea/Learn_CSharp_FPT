@@ -10,7 +10,21 @@ namespace Learn_CSharp_DotNet
     {
         static void Main(string[] args)
         {
-            Book.Session_1.Run.Test();
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
+
+            //Book.Session_1.Run.Test();
+            //Book.Session_3.Run.Test();
+            Book.Session_4.Run.Test();
+
+            PressEnterToEnd();
         }
+
+        #region Common Method
+        static void PressEnterToEnd()
+        {
+            Console.WriteLine("Ấn phím [ENTER] để kết thúc");
+            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+        }
+        #endregion
     }
 }
