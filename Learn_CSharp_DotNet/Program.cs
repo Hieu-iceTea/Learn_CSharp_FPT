@@ -12,18 +12,30 @@ namespace Learn_CSharp_DotNet
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
 
+            // -> Book:
             //Book.Session_1.Run.Test();
             //Book.Session_3.Run.Test();
-            Book.Session_4.Run.Test();
+            //Book.Session_4.Run.Test();
 
-            PressEnterToEnd();
+            //Books.Session_6.Run.Test();
+
+
+            /* -> CodeLean */
+            //CodeLean.AP_06.Run.Test();
+            //CodeLean.AP_07_08.Run.Test();
+            //CodeLean.AP_09.Run.Test();
+            //CodeLean.AP_10.Run.Test();
+            CodeLean.Lab_03.Run.Test();
+
+
+            PressToEnd();
         }
 
         #region Common Method
-        static void PressEnterToEnd()
+        static void PressToEnd()
         {
-            Console.WriteLine("Ấn phím [ENTER] để kết thúc");
-            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
+            Console.WriteLine("\n\tẤn phím [ESC] để kết thúc");
+            while (Console.ReadKey().Key != ConsoleKey.Escape) { }
         }
         #endregion
     }

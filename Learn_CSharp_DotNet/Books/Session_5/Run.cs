@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn_CSharp_DotNet.Book.Session_5
+namespace Learn_CSharp_DotNet.Books.Session_5
 {
     class Run
     {

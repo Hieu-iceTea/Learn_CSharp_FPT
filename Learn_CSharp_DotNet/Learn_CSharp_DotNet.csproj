@@ -43,9 +43,35 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Book\Session_1\Run.cs" />
-    <Compile Include="Book\Session_3\Run.cs" />
-    <Compile Include="Book\Session_4\Run.cs" />
+    <Compile Include="Books\Session_1\Run.cs" />
+    <Compile Include="Books\Session_3\Run.cs" />
+    <Compile Include="Books\Session_4\Run.cs" />
+    <Compile Include="Books\Session_5\Run.cs" />
+    <Compile Include="Books\Session_6\Book.cs" />
+    <Compile Include="Books\Session_6\Run.cs" />
+    <Compile Include="Books\Session_6\Students.cs" />
+    <Compile Include="CodeLean\AP_06\DrinksMachine.cs" />
+    <Compile Include="CodeLean\AP_06\Run.cs" />
+    <Compile Include="CodeLean\AP_07_08\Employee.cs" />
+    <Compile Include="CodeLean\AP_07_08\Manager.cs" />
+    <Compile Include="CodeLean\AP_07_08\Programmer.cs" />
+    <Compile Include="CodeLean\AP_07_08\Run.cs" />
+    <Compile Include="CodeLean\AP_09\Coffee.cs" />
+    <Compile Include="CodeLean\AP_09\Customer.cs" />
+    <Compile Include="CodeLean\AP_09\IBeverage.cs" />
+    <Compile Include="CodeLean\AP_09\ILoyaltyCardHolder.cs" />
+    <Compile Include="CodeLean\AP_09\Run.cs" />
+    <Compile Include="CodeLean\AP_10\BusinessEmployee.cs" />
+    <Compile Include="CodeLean\AP_10\Employee.cs" />
+    <Compile Include="CodeLean\AP_10\Run.cs" />
+    <Compile Include="CodeLean\AP_10\TechnicalEmployee.cs" />
+    <Compile Include="CodeLean\Lab_03\Atom.cs" />
+    <Compile Include="CodeLean\Lab_03\Button.cs" />
+    <Compile Include="CodeLean\Lab_03\Car.cs" />
+    <Compile Include="CodeLean\Lab_03\Employee.cs" />
+    <Compile Include="CodeLean\Lab_03\ListBox.cs" />
+    <Compile Include="CodeLean\Lab_03\Run.cs" />
+    <Compile Include="CodeLean\Lab_03\Window.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,8 +79,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Book\Session_2\" />
-    <Folder Include="CodeLean\" />
+    <Folder Include="Books\Session_2\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

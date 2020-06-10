@@ -4,13 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn_CSharp_DotNet.Book.Session_6
+namespace Learn_CSharp_DotNet.Books.Session_6
 {
-    class Run
+    class Book
     {
-        public static void Test()
-        {
-            
-        }
+
     }
 }
