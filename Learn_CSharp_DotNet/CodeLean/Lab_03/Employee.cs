@@ -23,6 +23,11 @@ namespace Learn_CSharp_DotNet.CodeLean.Lab_03
             this.salary = salary;
         }
 
+        ~Employee()
+        {
+            Console.WriteLine("Destructor for Employee called");
+        }
+
         public override string ToString()
         {
             return string.Format("Employee: {0} {1} {2} {3} {4}", firstName, lastName, address, sin, salary);

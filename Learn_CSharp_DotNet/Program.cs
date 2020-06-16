@@ -17,7 +17,7 @@ namespace Learn_CSharp_DotNet
             //Book.Session_3.Run.Test();
             //Book.Session_4.Run.Test();
 
-            Books.Session_6.Run.Test();
+            //Books.Session_6.Run.Test();
 
 
             /* -> CodeLean */
@@ -25,7 +25,7 @@ namespace Learn_CSharp_DotNet
             //CodeLean.AP_07_08.Run.Test();
             //CodeLean.AP_09.Run.Test();
             //CodeLean.AP_10.Run.Test();
-            //CodeLean.Lab_03.Run.Test();
+            CodeLean.Lab_03.Run.Test();
 
 
             PressToEnd();

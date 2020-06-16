@@ -50,6 +50,7 @@
     <Compile Include="Books\Session_6\Book.cs" />
     <Compile Include="Books\Session_6\Run.cs" />
     <Compile Include="Books\Session_6\Students.cs" />
+    <Compile Include="Books\Session_7\Run.cs" />
     <Compile Include="CodeLean\AP_06\DrinksMachine.cs" />
     <Compile Include="CodeLean\AP_06\Run.cs" />
     <Compile Include="CodeLean\AP_07_08\Employee.cs" />
