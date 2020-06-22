@@ -62,10 +62,15 @@
     <Compile Include="CodeLean\AP_09\IBeverage.cs" />
     <Compile Include="CodeLean\AP_09\ILoyaltyCardHolder.cs" />
     <Compile Include="CodeLean\AP_09\Run.cs" />
-    <Compile Include="CodeLean\AP_10\BusinessEmployee.cs" />
-    <Compile Include="CodeLean\AP_10\Employee.cs" />
-    <Compile Include="CodeLean\AP_10\Run.cs" />
-    <Compile Include="CodeLean\AP_10\TechnicalEmployee.cs" />
+    <Compile Include="CodeLean\AP_10_11\BusinessEmployee.cs" />
+    <Compile Include="CodeLean\AP_10_11\Employee.cs" />
+    <Compile Include="CodeLean\AP_10_11\Run.cs" />
+    <Compile Include="CodeLean\AP_10_11\TechnicalEmployee.cs" />
+    <Compile Include="CodeLean\AP_12_14\Run.cs" />
+    <Compile Include="CodeLean\AP_13_15\Run.cs" />
+    <Compile Include="CodeLean\AP_16\Run.cs" />
+    <Compile Include="CodeLean\AP_17\EventProgram.cs" />
+    <Compile Include="CodeLean\AP_17\Run.cs" />
     <Compile Include="CodeLean\Lab_03\Atom.cs" />
     <Compile Include="CodeLean\Lab_03\Button.cs" />
     <Compile Include="CodeLean\Lab_03\Car.cs" />
@@ -73,6 +78,10 @@
     <Compile Include="CodeLean\Lab_03\ListBox.cs" />
     <Compile Include="CodeLean\Lab_03\Run.cs" />
     <Compile Include="CodeLean\Lab_03\Window.cs" />
+    <Compile Include="ExamPaper\Book.cs" />
+    <Compile Include="ExamPaper\MobilePhone.cs" />
+    <Compile Include="ExamPaper\Product.cs" />
+    <Compile Include="ExamPaper\Run.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

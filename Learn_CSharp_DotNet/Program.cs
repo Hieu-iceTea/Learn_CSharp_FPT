@@ -25,8 +25,12 @@ namespace Learn_CSharp_DotNet
             //CodeLean.AP_07_08.Run.Test();
             //CodeLean.AP_09.Run.Test();
             //CodeLean.AP_10.Run.Test();
-            CodeLean.Lab_03.Run.Test();
+            //CodeLean.Lab_03.Run.Test();
+            //CodeLean.AP_16.Run.Test();
 
+
+            /* -> ExamPaper */
+            ExamPaper.Run.Test();
 
             PressToEnd();
         }

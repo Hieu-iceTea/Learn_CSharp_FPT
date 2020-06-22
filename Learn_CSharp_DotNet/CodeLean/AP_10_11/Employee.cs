@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn_CSharp_DotNet.CodeLean.AP_10
+namespace Learn_CSharp_DotNet.CodeLean.AP_10_11
 {
     abstract class Employee
     {
@@ -82,5 +82,6 @@ namespace Learn_CSharp_DotNet.CodeLean.AP_10
         }
 
         public abstract string empoloyeeStatus();
+
     }
 }

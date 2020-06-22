@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Learn_CSharp_DotNet.CodeLean.AP_10
+namespace Learn_CSharp_DotNet.CodeLean.AP_10_11
 {
     /// <summary>
     /// [AP_10] Tutorial Lab 1 - Inheritance
