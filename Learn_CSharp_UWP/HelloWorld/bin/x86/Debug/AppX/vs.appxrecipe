@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-01T10:36:16.188</Modified>
+      <Modified>2020-10-04T10:23:08.839</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\HelloWorld.exe">
       <PackagePath>entrypoint\HelloWorld.exe</PackagePath>
-      <Modified>2020-10-01T10:36:15.438</Modified>
+      <Modified>2020-10-04T10:23:07.609</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -91,15 +91,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\HelloWorld.xr.xml">
       <PackagePath>HelloWorld.xr.xml</PackagePath>
-      <Modified>2020-10-01T10:16:13.608</Modified>
+      <Modified>2020-10-04T10:23:07.287</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-01T10:35:03.400</Modified>
+      <Modified>2020-10-03T02:12:19.105</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-01T10:35:03.401</Modified>
+      <Modified>2020-10-04T10:23:07.330</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -107,11 +107,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-01T10:16:14.644</Modified>
+      <Modified>2020-10-03T02:12:19.786</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\HelloWorld\bin\x86\Debug\Core\HelloWorld.exe">
       <PackagePath>HelloWorld.exe</PackagePath>
-      <Modified>2020-10-01T10:36:16.182</Modified>
+      <Modified>2020-10-04T10:23:08.799</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

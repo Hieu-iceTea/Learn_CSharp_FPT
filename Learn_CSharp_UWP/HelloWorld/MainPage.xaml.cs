@@ -29,13 +29,22 @@ namespace HelloWorld
 
         private async void Button_Click(object sender, RoutedEventArgs e)
         {
+            var textInput = txt.Text;
+
+            tbn.Text = textInput;
+
             MediaElement mediaElement = new MediaElement();
 
             var synth = new Windows.Media.SpeechSynthesis.SpeechSynthesizer();
-            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync("Hello, getting great!!!");
+            Windows.Media.SpeechSynthesis.SpeechSynthesisStream stream = await synth.SynthesizeTextToStreamAsync(textInput);
 
             mediaElement.SetSource(stream, stream.ContentType);
             mediaElement.Play();
+        }
+
+        private void Page_Loaded(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
