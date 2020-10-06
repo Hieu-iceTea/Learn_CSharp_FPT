@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="Learn_CSharp_UWP.Pages.HelloWorld"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Learn_CSharp_UWP.Pages"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="Page_Loaded">
+
+    <Grid>
+        <HyperlinkButton 
+            x:Name="btn_Back" 
+            Click="btn_Back_Click"
+            VerticalAlignment="Top"
+            FontSize="35">
+            Main Page
+        </HyperlinkButton>
+        
+        <Button x:Name="btn" Content="Nút ấn" Margin="800,128,0,0" VerticalAlignment="Top" Height="60" Width="312" Click="Button_Click" FontSize="35">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF4A9E9B"/>
+                    <GradientStop Color="#FF838AD3" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <TextBox x:Name="txt" HorizontalAlignment="Left" Margin="300,128,0,0" Text="" PlaceholderText="Input Text" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36" Height="60" Width="439"/>
+        <TextBlock x:Name="tbn" HorizontalAlignment="Center" Margin="0,337,0,0" Text="no text" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="36"/>
+    </Grid>
+</Page>
