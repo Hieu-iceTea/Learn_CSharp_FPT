@@ -48,3 +48,8 @@ D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\qualif
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\ProjectArchitectures.txt
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.xbf
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.g.i.cs
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.g.cs
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.xaml
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.xbf

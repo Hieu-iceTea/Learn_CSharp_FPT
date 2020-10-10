@@ -10,4 +10,5 @@ App.xbf
 Learn_CSharp_UWP.xr.xml
 MainPage.xbf
 Pages\HelloWorld.xbf
+Pages\Lab\Lab_08_XAML_Layout.xbf
 Properties\Default.rd.xml

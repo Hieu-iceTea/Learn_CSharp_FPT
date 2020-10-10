@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-06T03:06:23.298</Modified>
+      <Modified>2020-10-06T09:18:25.510</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Learn_CSharp_UWP.exe">
       <PackagePath>entrypoint\Learn_CSharp_UWP.exe</PackagePath>
-      <Modified>2020-10-06T03:06:22.796</Modified>
+      <Modified>2020-10-06T09:18:24.228</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -86,19 +86,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Learn_CSharp_UWP.xr.xml">
       <PackagePath>Learn_CSharp_UWP.xr.xml</PackagePath>
-      <Modified>2020-10-06T03:05:05.803</Modified>
+      <Modified>2020-10-06T09:18:23.979</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-06T03:06:22.617</Modified>
+      <Modified>2020-10-06T09:18:24.019</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-06T03:06:22.617</Modified>
+      <Modified>2020-10-06T09:18:24.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\HelloWorld.xbf">
       <PackagePath>Pages\HelloWorld.xbf</PackagePath>
-      <Modified>2020-10-06T03:06:22.618</Modified>
+      <Modified>2020-10-06T09:18:24.020</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.xbf">
+      <PackagePath>Pages\Lab\Lab_08_XAML_Layout.xbf</PackagePath>
+      <Modified>2020-10-06T09:18:24.020</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -106,11 +110,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-06T02:59:47.024</Modified>
+      <Modified>2020-10-06T09:18:24.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Core\Learn_CSharp_UWP.exe">
       <PackagePath>Learn_CSharp_UWP.exe</PackagePath>
-      <Modified>2020-10-06T03:06:23.291</Modified>
+      <Modified>2020-10-06T09:18:25.478</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
