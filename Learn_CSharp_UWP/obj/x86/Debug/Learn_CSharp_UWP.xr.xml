@@ -11,14 +11,21 @@
     <RootType FullName="Windows.UI.Xaml.Controls.Grid">
       <RootProperty Name="Children" />
       <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="ColumnDefinitions" />
       <RootMethod Name="GetRow" />
       <RootMethod Name="SetRow" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.HyperlinkButton">
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Content" />
+      <RootProperty Name="NavigateUri" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Learn_CSharp_UWP.MainPage" />
@@ -30,6 +37,7 @@
       <RootProperty Name="Width" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Background" />
+      <RootProperty Name="FontFamily" />
       <RootEvent Name="Click" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -42,6 +50,7 @@
       <RootProperty Name="FontSize" />
       <RootProperty Name="Height" />
       <RootProperty Name="Width" />
+      <RootProperty Name="Name" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="HorizontalAlignment" />
@@ -51,6 +60,8 @@
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="FontSize" />
       <RootProperty Name="Inlines" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="FontFamily" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Media.LinearGradientBrush">
       <RootProperty Name="EndPoint" />
@@ -68,7 +79,50 @@
     <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
       <RootProperty Name="Height" />
       <RootProperty Name="Fill" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="VerticalAlignment" />
     </RootType>
     <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_08_XAML_Layout" />
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="Children" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Orientation" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_08_XAML_Layout_GridAndStackPanel" />
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_11_Laudable_Layout_Challenge" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_13_Lenendary_Layout_Challenge" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_15_Laborious_Layout_Challenge" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Frame" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_19_Working_with_Navigation.MainPage" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_19_Working_with_Navigation.Page1" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_19_Working_with_Navigation.Page2" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_19_Working_with_Navigation.Page3" />
+    <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
+      <RootProperty Name="Children" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
+      <RootProperty Name="DisplayMode" />
+      <RootProperty Name="OpenPaneLength" />
+      <RootProperty Name="CompactPaneLength" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Pane" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="Items" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBoxItem">
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_21_Hamburger_Navigation_Menu.MainPage" />
   </Roots.RootTypes>
 </Roots>

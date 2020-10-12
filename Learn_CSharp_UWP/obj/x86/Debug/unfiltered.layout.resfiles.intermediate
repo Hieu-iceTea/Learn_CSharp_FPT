@@ -11,4 +11,13 @@ Learn_CSharp_UWP.xr.xml
 MainPage.xbf
 Pages\HelloWorld.xbf
 Pages\Lab\Lab_08_XAML_Layout.xbf
+Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xbf
+Pages\Lab\Lab_11_Laudable_Layout_Challenge.xbf
+Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xbf
+Pages\Lab\Lab_15_Laborious_Layout_Challenge.xbf
+Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xbf
+Pages\Lab\Lab_19_Working_with_Navigation\Page1.xbf
+Pages\Lab\Lab_19_Working_with_Navigation\Page2.xbf
+Pages\Lab\Lab_19_Working_with_Navigation\Page3.xbf
+Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf
 Properties\Default.rd.xml

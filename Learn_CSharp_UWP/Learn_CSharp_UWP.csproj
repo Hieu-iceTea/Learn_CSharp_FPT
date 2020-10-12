@@ -131,6 +131,30 @@
     <Compile Include="Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xaml.cs">
       <DependentUpon>Lab_08_XAML_Layout_GridAndStackPanel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Lab\Lab_11_Laudable_Layout_Challenge.xaml.cs">
+      <DependentUpon>Lab_11_Laudable_Layout_Challenge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xaml.cs">
+      <DependentUpon>Lab_13_Lenendary_Layout_Challenge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_15_Laborious_Layout_Challenge.xaml.cs">
+      <DependentUpon>Lab_15_Laborious_Layout_Challenge.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_19_Working_with_Navigation\Page1.xaml.cs">
+      <DependentUpon>Page1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_19_Working_with_Navigation\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_19_Working_with_Navigation\Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -166,6 +190,38 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_11_Laudable_Layout_Challenge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_15_Laborious_Layout_Challenge.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_19_Working_with_Navigation\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_19_Working_with_Navigation\Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_19_Working_with_Navigation\Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

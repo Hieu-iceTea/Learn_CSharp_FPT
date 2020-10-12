@@ -79,6 +79,33 @@
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.xbf">
       <PackagePath>Pages\Lab\Lab_08_XAML_Layout.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xbf">
+      <PackagePath>Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_11_Laudable_Layout_Challenge.xbf">
+      <PackagePath>Pages\Lab\Lab_11_Laudable_Layout_Challenge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xbf">
+      <PackagePath>Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_15_Laborious_Layout_Challenge.xbf">
+      <PackagePath>Pages\Lab\Lab_15_Laborious_Layout_Challenge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\Page1.xbf">
+      <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\Page1.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\Page2.xbf">
+      <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\Page2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\Page3.xbf">
+      <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\Page3.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

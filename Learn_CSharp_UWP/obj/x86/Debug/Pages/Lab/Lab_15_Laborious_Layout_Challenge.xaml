@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="Learn_CSharp_UWP.Pages.Lab.Lab_15_Laborious_Layout_Challenge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Learn_CSharp_UWP.Pages.Lab"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Width="500" HorizontalAlignment="Left">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+                
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="48">Title 1</TextBlock>
+            
+            <TextBlock FontSize="24" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap">Labore sadipscing consetetur ullamcorper diam dolores est takimata accusam magna dolor dolore duis vel ipsum ut labore ut sit labore ipsum takimata sit tempor ea eleifend lorem ut nonummy accusam elit ut sit magna accusam diam hendrerit elitr facilisi ut lorem diam dolore sea suscipit consequat erat tempor eros eu</TextBlock>
+            
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left">
+                <Rectangle Width="100" Height="30" Fill="Green"></Rectangle>
+                <Rectangle Width="100" Height="30" Fill="Black"></Rectangle>
+                <Rectangle Width="100" Height="30" Fill="Red"></Rectangle>
+            </StackPanel>
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="48">Title 2</TextBlock>
+            <TextBlock FontSize="24" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap">Labore sadipscing consetetur ullamcorper diam dolores est takimata accusam magna dolor dolore duis vel ipsum ut labore ut sit labore ipsum takimata sit tempor ea eleifend lorem ut nonummy accusam elit ut sit magna accusam diam hendrerit elitr facilisi ut lorem diam dolore sea suscipit consequat erat tempor eros eu</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left">
+                <Rectangle Width="100" Height="30" Fill="Red"></Rectangle>
+                <Rectangle Width="100" Height="30" Fill="Black"></Rectangle>
+                <Rectangle Width="100" Height="30" Fill="Blue"></Rectangle>
+            </StackPanel>
+        </Grid>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock FontSize="48">Title 3</TextBlock>
+            <TextBlock FontSize="24" Grid.Column="1" Grid.Row="1" TextWrapping="Wrap">Labore sadipscing consetetur ullamcorper diam dolores est takimata accusam magna dolor dolore duis vel ipsum ut labore ut sit labore ipsum takimata sit tempor ea eleifend lorem ut nonummy accusam elit ut sit magna accusam diam hendrerit elitr facilisi ut lorem diam dolore sea suscipit consequat erat tempor eros eu</TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left">
+                <Rectangle Width="100" Height="30" Fill="Blue"></Rectangle>
+                <Rectangle Width="100" Height="30" Fill="Black"></Rectangle>
+                <Rectangle Width="100" Height="30" Fill="Yellow"></Rectangle>
+            </StackPanel>
+        </Grid>
+    </StackPanel>
+</Page>
+

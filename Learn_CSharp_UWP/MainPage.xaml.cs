@@ -30,7 +30,7 @@ namespace Learn_CSharp_UWP
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             //this.Frame.Navigate(typeof(Pages.HelloWorld));
-            this.Frame.Navigate(typeof(Pages.Lab.Lab_08_XAML_Layout_GridAndStackPanel));
+            this.Frame.Navigate(typeof(Pages.Lab.Lab_21_Hamburger_Navigation_Menu.MainPage));
         }
     }
 }

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="Learn_CSharp_UWP.Pages.Lab.Lab_13_Lenendary_Layout_Challenge"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Learn_CSharp_UWP.Pages.Lab"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Margin="10 0 0 0">
+        <TextBlock FontSize="48">Ut et</TextBlock>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Width="250" TextWrapping="Wrap">Augue congue et et ea nonummy gubergren iusto voluptua erat odio ullamcorper eum clita dolor sed eos invidunt eu nonumy consequat vero sit eleifend consetetur dolore lorem consectetuer eos in rebum invidunt voluptua te ad ea et et sadipscing et takimata clita accusam at ut iusto justo magna dolore stet dolor invidunt facer no facer diam magna dolor facilisis et sed diam lorem duo ea labore dolore et molestie liber laoreet ut magna volutpat magna dolore ipsum at delenit diam augue eros eleifend consetetur kasd sed ea eum et sea labore duo hendrerit no et magna eum ipsum kasd sit</TextBlock>
+            <TextBlock Width="500" Margin="20 0 0 0" TextWrapping="Wrap">Magna feugait sit voluptua option ut sanctus et kasd takimata vel kasd takimata magna sed nibh vero et at sed vel diam ipsum ut dolore ipsum et exerci illum nonumy duo est nonumy nihil duo consetetur iusto tempor dolores eros dolor vel clita ipsum erat elit mazim ad vero ipsum et eirmod et et duis lorem iriure et at kasd rebum lorem lorem eleifend tation elitr nisl gubergren sit sit takimata tempor odio zzril et sit euismod consetetur sanctus amet aliquyam et aliquyam vero tempor nulla esse diam dolor et et odio sadipscing nam clita eum kasd qui ea invidunt eos vel lorem nulla eum aliquam ut nonumy no lobortis sed dolor gubergren diam option quis eos eros sit diam in sit stet stet rebum et at et dolor sed stet accusam stet lorem sed consequat justo ea sit magna aliquyam aliquyam eos clita suscipit ea kasd kasd takimata clita</TextBlock>
+            <StackPanel Orientation="Horizontal" Margin="20 0 0 0">
+                <Rectangle Height="200" Width="200" Fill="Blue" VerticalAlignment="Top"></Rectangle>
+                <StackPanel>
+                    <Rectangle Height="100" Width="100" Fill="Red"></Rectangle>
+                    <Rectangle Height="100" Width="100" Fill="Yellow"></Rectangle>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </StackPanel>
+</Page>
+
