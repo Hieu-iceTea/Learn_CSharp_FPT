@@ -106,6 +106,15 @@
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf">
       <PackagePath>Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Favourites.xbf">
+      <PackagePath>Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Favourites.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Home.xbf">
+      <PackagePath>Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Home.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>

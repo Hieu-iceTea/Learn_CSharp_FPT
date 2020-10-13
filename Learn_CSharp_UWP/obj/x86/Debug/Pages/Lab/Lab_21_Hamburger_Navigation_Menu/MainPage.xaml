@@ -36,8 +36,8 @@
                     <ListBoxItem x:ConnectionId='4' x:Name="ShareListBoxItem">
                         <StackPanel Orientation="Horizontal">
                             <TextBlock FontFamily="Segoe MDL2 Assets"
-                                   FontSize="36">
-                            &#xE72D;
+                                       FontSize="36">
+                                &#xE72D;
                             </TextBlock>
                             <TextBlock FontSize="24" Margin="20 0 0 0">Share</TextBlock>
                         </StackPanel>

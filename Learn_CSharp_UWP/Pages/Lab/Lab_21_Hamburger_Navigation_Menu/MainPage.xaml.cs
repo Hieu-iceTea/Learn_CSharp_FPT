@@ -34,7 +34,10 @@ namespace Learn_CSharp_UWP.Pages.Lab.Lab_21_Hamburger_Navigation_Menu
 
         private void IconListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            lblTitle.Text = IconListBox.Items.Cast<ListBoxItem>().Where(p => p.IsSelected).Select(t => t.Name.ToString()).First();
+            lblTitle.Text = IconListBox.Items.Cast<ListBoxItem>()
+                .Where(p => p.IsSelected)
+                .Select(t => t.Name.ToString())
+                .First();
         }
     }
 }

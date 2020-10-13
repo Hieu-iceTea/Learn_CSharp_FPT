@@ -106,6 +106,12 @@
     <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_19_Working_with_Navigation.Page3" />
     <RootType FullName="Windows.UI.Xaml.Controls.RelativePanel">
       <RootProperty Name="Children" />
+      <RootMethod Name="GetRightOf" />
+      <RootMethod Name="SetRightOf" />
+      <RootMethod Name="GetLeftOf" />
+      <RootMethod Name="SetLeftOf" />
+      <RootMethod Name="GetAlignRightWithPanel" />
+      <RootMethod Name="SetAlignRightWithPanel" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.SplitView">
       <RootProperty Name="DisplayMode" />
@@ -124,5 +130,12 @@
       <RootProperty Name="Content" />
     </RootType>
     <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_21_Hamburger_Navigation_Menu.MainPage" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_23_Hamburger_Heaven_Challenge.Favourites" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_23_Hamburger_Heaven_Challenge.Home" />
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_23_Hamburger_Heaven_Challenge.MainPage" />
   </Roots.RootTypes>
 </Roots>
