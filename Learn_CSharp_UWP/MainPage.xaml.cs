@@ -30,7 +30,7 @@ namespace Learn_CSharp_UWP
         private void HyperlinkButton_Click(object sender, RoutedEventArgs e)
         {
             //this.Frame.Navigate(typeof(Pages.HelloWorld));
-            this.Frame.Navigate(typeof(Pages.Lab.Lab_23_Hamburger_Heaven_Challenge.MainPage));
+            this.Frame.Navigate(typeof(Pages.Lab.Lab_44_Adeptly_Adaptive_Challenge.MainPage));
         }
     }
 }

@@ -1,0 +1,41 @@
+﻿<Page
+    x:Class="Learn_CSharp_UWP.Pages.Lab.Lab_31_Stupendous_Styles_Challenge.SchedulePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Learn_CSharp_UWP.Pages.Lab.Lab_31_Stupendous_Styles_Challenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Green">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Image Style="{StaticResource WhiteLogoStyle}"></Image>
+
+        <TextBlock Grid.Row="1"
+                   Style="{StaticResource LabelTextBlockStyle}">
+            Pickup:
+        </TextBlock>
+
+        <CalendarDatePicker Grid.Row="1"
+                            Grid.Column="1"
+                            Foreground="White">
+        </CalendarDatePicker>
+
+        <TimePicker Grid.Row="2"
+                    Grid.Column="1"
+                    Foreground="White">
+        </TimePicker>
+    </Grid>
+</Page>

@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2020-10-13T04:37:31.201</Modified>
+      <Modified>2020-10-26T02:56:18.979</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Learn_CSharp_UWP.exe">
       <PackagePath>entrypoint\Learn_CSharp_UWP.exe</PackagePath>
-      <Modified>2020-10-13T04:37:30.693</Modified>
+      <Modified>2020-10-26T02:56:17.919</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.10\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
       <PackagePath>System.Runtime.dll</PackagePath>
@@ -46,9 +46,9 @@
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
       <Modified>2019-03-18T11:36:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Properties\Default.rd.xml">
-      <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2020-10-06T02:50:38.992</Modified>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+      <Modified>2020-10-15T04:26:53.463</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
@@ -84,73 +84,173 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2020-10-01T03:18:45.964</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+      <Modified>2020-10-06T02:50:38.992</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Learn_CSharp_UWP.xr.xml">
       <PackagePath>Learn_CSharp_UWP.xr.xml</PackagePath>
-      <Modified>2020-10-13T04:37:30.479</Modified>
+      <Modified>2020-10-26T02:36:14.094</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.115</Modified>
+      <Modified>2020-10-26T02:56:17.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.115</Modified>
+      <Modified>2020-10-26T02:56:17.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\AtClass\BookManage\MainPage.xbf">
+      <PackagePath>Pages\AtClass\BookManage\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.593</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\HelloWorld.xbf">
       <PackagePath>Pages\HelloWorld.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.115</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_08_XAML_Layout.xbf">
       <PackagePath>Pages\Lab\Lab_08_XAML_Layout.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.115</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xbf">
       <PackagePath>Pages\Lab\Lab_08_XAML_Layout_GridAndStackPanel.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.116</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_11_Laudable_Layout_Challenge.xbf">
       <PackagePath>Pages\Lab\Lab_11_Laudable_Layout_Challenge.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.116</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xbf">
       <PackagePath>Pages\Lab\Lab_13_Lenendary_Layout_Challenge.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.105</Modified>
+      <Modified>2020-10-26T02:56:17.550</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_15_Laborious_Layout_Challenge.xbf">
       <PackagePath>Pages\Lab\Lab_15_Laborious_Layout_Challenge.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.108</Modified>
+      <Modified>2020-10-26T02:56:17.552</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xbf">
       <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\MainPage.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.116</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\Page1.xbf">
       <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\Page1.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.117</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\Page2.xbf">
       <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\Page2.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.117</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_19_Working_with_Navigation\Page3.xbf">
       <PackagePath>Pages\Lab\Lab_19_Working_with_Navigation\Page3.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.117</Modified>
+      <Modified>2020-10-26T02:56:17.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_20_Common_XAML_Controls_Part_1\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_20_Common_XAML_Controls_Part_1\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf">
       <PackagePath>Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.117</Modified>
+      <Modified>2020-10-26T02:56:17.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Favourites.xbf">
       <PackagePath>Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Favourites.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.117</Modified>
+      <Modified>2020-10-26T02:56:17.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Home.xbf">
       <PackagePath>Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\Home.xbf</PackagePath>
-      <Modified>2020-10-13T04:37:30.482</Modified>
+      <Modified>2020-10-26T02:56:17.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\MainPage.xbf">
       <PackagePath>Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\MainPage.xbf</PackagePath>
-      <Modified>2020-10-13T04:33:30.117</Modified>
+      <Modified>2020-10-26T02:56:17.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_25_Common_XAML_Controls_Part_2\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_25_Common_XAML_Controls_Part_2\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_26_Working_With_The_ScrollViewer\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_26_Working_With_The_ScrollViewer\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_27_Canvas_And_Shapes\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_27_Canvas_And_Shapes\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.595</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_28_XAML_Styles\Dictionary1.xbf">
+      <PackagePath>Pages\Lab\Lab_28_XAML_Styles\Dictionary1.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_28_XAML_Styles\Dictionary2.xbf">
+      <PackagePath>Pages\Lab\Lab_28_XAML_Styles\Dictionary2.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.593</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_28_XAML_Styles\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_28_XAML_Styles\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_29_XAML_Themes\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_29_XAML_Themes\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CoffeePage.xbf">
+      <PackagePath>Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CoffeePage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CompletePage.xbf">
+      <PackagePath>Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CompletePage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_31_Stupendous_Styles_Challenge\DonutPage.xbf">
+      <PackagePath>Pages\Lab\Lab_31_Stupendous_Styles_Challenge\DonutPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_31_Stupendous_Styles_Challenge\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_31_Stupendous_Styles_Challenge\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_31_Stupendous_Styles_Challenge\SchedulePage.xbf">
+      <PackagePath>Pages\Lab\Lab_31_Stupendous_Styles_Challenge\SchedulePage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.596</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\usingBlendForVisualStates.xbf">
+      <PackagePath>Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\usingBlendForVisualStates.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_38_Working_with_Adaptive_Layout\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_38_Working_with_Adaptive_Layout\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Desktop\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Desktop\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Mobile\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Mobile\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_40_Data_Binding_to_the_GridView_and_ListView_Controls\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_40_Data_Binding_to_the_GridView_and_ListView_Controls\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_41_Keeping_Data_Controls_Updated_with_ObservableCollection\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_41_Keeping_Data_Controls_Updated_with_ObservableCollection\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\MainPage.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xbf">
+      <PackagePath>Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xbf</PackagePath>
+      <Modified>2020-10-26T02:56:17.597</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -158,11 +258,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2020-10-13T03:48:21.051</Modified>
+      <Modified>2020-10-26T02:36:14.670</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Core\Learn_CSharp_UWP.exe">
       <PackagePath>Learn_CSharp_UWP.exe</PackagePath>
-      <Modified>2020-10-13T04:37:31.196</Modified>
+      <Modified>2020-10-26T02:56:18.961</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

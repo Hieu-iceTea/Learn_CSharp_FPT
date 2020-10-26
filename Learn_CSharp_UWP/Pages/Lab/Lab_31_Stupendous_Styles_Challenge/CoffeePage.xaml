@@ -1,0 +1,71 @@
+﻿<Page
+    x:Class="Learn_CSharp_UWP.Pages.Lab.Lab_31_Stupendous_Styles_Challenge.CoffeePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Learn_CSharp_UWP.Pages.Lab.Lab_31_Stupendous_Styles_Challenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.Resources>
+        <Style TargetType="Button"
+               x:Key="FlyoutButtonStyle">
+            <Setter Property="Margin" Value="10"></Setter>
+            <Setter Property="Foreground" Value="White"></Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid Background="#3c1f19">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Image Style="{StaticResource WhiteLogoStyle}"></Image>
+
+        <StackPanel Grid.Row="1"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Center">
+            <Button Style="{StaticResource FlyoutButtonStyle}">
+                Roast
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Click="roast_Click">None</MenuFlyoutItem>
+                        <MenuFlyoutItem Click="roast_Click">Dark</MenuFlyoutItem>
+                        <MenuFlyoutItem Click="roast_Click">Medium</MenuFlyoutItem>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+
+            <Button Style="{StaticResource FlyoutButtonStyle}">
+                Sweetener
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Click="sweetener_Click">None</MenuFlyoutItem>
+                        <MenuFlyoutItem Click="sweetener_Click">Sugar</MenuFlyoutItem>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+
+            <Button Style="{StaticResource FlyoutButtonStyle}">
+                Cream
+                <Button.Flyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Click="cream_Click">None</MenuFlyoutItem>
+                        <MenuFlyoutItem Click="cream_Click">2% Milk</MenuFlyoutItem>
+                        <MenuFlyoutItem Click="cream_Click">Whole Milk</MenuFlyoutItem>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2"
+                    Orientation="Horizontal">
+            <TextBlock Style="{StaticResource LabelTextBlockStyle}">Coffee:</TextBlock>
+            <TextBlock x:Name="ResultTextBlock" Style="{StaticResource LabelTextBlockStyle}"></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

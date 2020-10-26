@@ -122,6 +122,10 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\AtClass\BookManage\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\AtClass\BookManage\Models\Book.cs" />
     <Compile Include="Pages\HelloWorld.xaml.cs">
       <DependentUpon>HelloWorld.xaml</DependentUpon>
     </Compile>
@@ -152,6 +156,9 @@
     <Compile Include="Pages\Lab\Lab_19_Working_with_Navigation\Page3.xaml.cs">
       <DependentUpon>Page3.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Lab\Lab_20_Common_XAML_Controls_Part_1\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
@@ -164,6 +171,68 @@
     <Compile Include="Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Lab\Lab_25_Common_XAML_Controls_Part_2\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_26_Working_With_The_ScrollViewer\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_27_Canvas_And_Shapes\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_28_XAML_Styles\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_29_XAML_Themes\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CoffeePage.xaml.cs">
+      <DependentUpon>CoffeePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CompletePage.xaml.cs">
+      <DependentUpon>CompletePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\DonutPage.xaml.cs">
+      <DependentUpon>DonutPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\SchedulePage.xaml.cs">
+      <DependentUpon>SchedulePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\usingBlendForVisualStates.xaml.cs">
+      <DependentUpon>usingBlendForVisualStates.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_38_Working_with_Adaptive_Layout\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Desktop\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Mobile\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_40_Data_Binding_to_the_GridView_and_ListView_Controls\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_40_Data_Binding_to_the_GridView_and_ListView_Controls\Models\Book.cs" />
+    <Compile Include="Pages\Lab\Lab_41_Keeping_Data_Controls_Updated_with_ObservableCollection\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\Models\NewsItem.cs" />
+    <Compile Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xaml.cs">
+      <DependentUpon>NewsItemControl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -172,6 +241,7 @@
     </AppxManifest>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\logo.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -189,6 +259,10 @@
     <Page Include="MainPage.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\AtClass\BookManage\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\HelloWorld.xaml">
       <SubType>Designer</SubType>
@@ -230,6 +304,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\Lab\Lab_20_Common_XAML_Controls_Part_1\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Lab\Lab_21_Hamburger_Navigation_Menu\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -243,6 +321,94 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Lab\Lab_23_Hamburger_Heaven_Challenge\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_25_Common_XAML_Controls_Part_2\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_26_Working_With_The_ScrollViewer\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_27_Canvas_And_Shapes\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_28_XAML_Styles\Dictionary1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_28_XAML_Styles\Dictionary2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_28_XAML_Styles\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_29_XAML_Themes\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CoffeePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\CompletePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\DonutPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_31_Stupendous_Styles_Challenge\SchedulePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_37_Utilizing_the_VisualStateManager_to_Create_Adaptive_Triggers\usingBlendForVisualStates.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_38_Working_with_Adaptive_Layout\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Desktop\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\DeviceFamily-Mobile\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_39_Adaptive_Layout_with_Device_Specific_Views\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_40_Data_Binding_to_the_GridView_and_ListView_Controls\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_41_Keeping_Data_Controls_Updated_with_ObservableCollection\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
