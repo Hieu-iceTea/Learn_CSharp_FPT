@@ -233,6 +233,12 @@
     <Compile Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xaml.cs">
       <DependentUpon>NewsItemControl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Lab\Lab_49_UWP_SoundBoard\Models\MenuItem.cs" />
+    <Compile Include="Pages\Lab\Lab_49_UWP_SoundBoard\Models\Sound.cs" />
+    <Compile Include="Pages\Lab\Lab_49_UWP_SoundBoard\Models\SoundManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -242,6 +248,39 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\logo.png" />
+    <Content Include="Assets\SoundBoard\Audio\Animals\Cat.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Animals\Cow.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Cartoons\Gun.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Cartoons\Spring.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Taunts\Clock.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Taunts\LOL.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Warnings\Ship.wav" />
+    <Content Include="Assets\SoundBoard\Audio\Warnings\Siren.wav" />
+    <Content Include="Assets\SoundBoard\Icons\animals.png" />
+    <Content Include="Assets\SoundBoard\Icons\cartoon.png" />
+    <Content Include="Assets\SoundBoard\Icons\taunt.png" />
+    <Content Include="Assets\SoundBoard\Icons\warning.png" />
+    <Content Include="Assets\SoundBoard\Images\Animals\Cat.png" />
+    <Content Include="Assets\SoundBoard\Images\Animals\Cow.png" />
+    <Content Include="Assets\SoundBoard\Images\Cartoons\Gun.png" />
+    <Content Include="Assets\SoundBoard\Images\Cartoons\Spring.png" />
+    <Content Include="Assets\SoundBoard\Images\Taunts\Clock.png" />
+    <Content Include="Assets\SoundBoard\Images\Taunts\LOL.png" />
+    <Content Include="Assets\SoundBoard\Images\Warnings\Ship.png" />
+    <Content Include="Assets\SoundBoard\Images\Warnings\Siren.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\1240x1240.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\1240x600.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\24x24-large.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\24x24.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\300x300.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\310x310.scale-100.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\50x50-large.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\50x50.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\620x300.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\71x71-large.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\71x71.scale-100.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\88x88-large.png" />
+    <Content Include="Assets\SoundBoard\PackageAppXManifest\88x88.png" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -409,6 +448,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

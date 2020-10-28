@@ -235,6 +235,7 @@
       <RootProperty Name="PlaceholderText" />
       <RootProperty Name="Width" />
       <RootEvent Name="TextChanged" />
+      <RootEvent Name="QuerySubmitted" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.Slider">
       <RootProperty Name="Margin" />
@@ -357,7 +358,11 @@
       <RootProperty Name="IsItemClickEnabled" />
       <RootProperty Name="ItemTemplate" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="SelectionMode" />
+      <RootProperty Name="AllowDrop" />
       <RootEvent Name="ItemClick" />
+      <RootEvent Name="Drop" />
+      <RootEvent Name="DragOver" />
     </RootType>
     <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_40_Data_Binding_to_the_GridView_and_ListView_Controls.MainPage" />
     <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_41_Keeping_Data_Controls_Updated_with_ObservableCollection.MainPage" />
@@ -366,5 +371,15 @@
     <RootType FullName="Windows.UI.Xaml.Controls.UserControl">
       <RootProperty Name="Content" />
     </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListView">
+      <RootProperty Name="IsItemClickEnabled" />
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="ItemClick" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
+      <RootProperty Name="AutoPlay" />
+    </RootType>
+    <RootType FullName="Learn_CSharp_UWP.Pages.Lab.Lab_49_UWP_SoundBoard.MainPage" />
   </Roots.RootTypes>
 </Roots>

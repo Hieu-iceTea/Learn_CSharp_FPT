@@ -37,6 +37,81 @@
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\logo.png">
       <PackagePath>Assets\logo.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Icons\animals.png">
+      <PackagePath>Assets\SoundBoard\Icons\animals.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Icons\cartoon.png">
+      <PackagePath>Assets\SoundBoard\Icons\cartoon.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Icons\taunt.png">
+      <PackagePath>Assets\SoundBoard\Icons\taunt.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Icons\warning.png">
+      <PackagePath>Assets\SoundBoard\Icons\warning.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Animals\Cat.png">
+      <PackagePath>Assets\SoundBoard\Images\Animals\Cat.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Animals\Cow.png">
+      <PackagePath>Assets\SoundBoard\Images\Animals\Cow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Cartoons\Gun.png">
+      <PackagePath>Assets\SoundBoard\Images\Cartoons\Gun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Cartoons\Spring.png">
+      <PackagePath>Assets\SoundBoard\Images\Cartoons\Spring.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Taunts\Clock.png">
+      <PackagePath>Assets\SoundBoard\Images\Taunts\Clock.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Taunts\LOL.png">
+      <PackagePath>Assets\SoundBoard\Images\Taunts\LOL.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Warnings\Ship.png">
+      <PackagePath>Assets\SoundBoard\Images\Warnings\Ship.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Images\Warnings\Siren.png">
+      <PackagePath>Assets\SoundBoard\Images\Warnings\Siren.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\1240x1240.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\1240x1240.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\1240x600.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\1240x600.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\24x24-large.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\24x24-large.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\24x24.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\24x24.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\300x300.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\300x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\310x310.scale-100.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\310x310.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\50x50-large.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\50x50-large.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\50x50.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\50x50.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\620x300.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\620x300.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\71x71-large.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\71x71-large.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\71x71.scale-100.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\71x71.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\88x88-large.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\88x88-large.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\PackageAppXManifest\88x88.png">
+      <PackagePath>Assets\SoundBoard\PackageAppXManifest\88x88.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
@@ -63,6 +138,30 @@
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Animals\Cat.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Animals\Cat.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Animals\Cow.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Animals\Cow.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Cartoons\Gun.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Cartoons\Gun.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Cartoons\Spring.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Cartoons\Spring.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Taunts\Clock.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Taunts\Clock.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Taunts\LOL.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Taunts\LOL.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Warnings\Ship.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Warnings\Ship.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Assets\SoundBoard\Audio\Warnings\Siren.wav">
+      <PackagePath>Assets\SoundBoard\Audio\Warnings\Siren.wav</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -189,6 +288,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xbf">
       <PackagePath>Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xbf">
+      <PackagePath>Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

@@ -2,4 +2,5 @@ AlternateForm=UNPLATED
 DeviceFamily=DESKTOP
 DeviceFamily=MOBILE
 Scale=200
+Scale=100
 TargetSize=24

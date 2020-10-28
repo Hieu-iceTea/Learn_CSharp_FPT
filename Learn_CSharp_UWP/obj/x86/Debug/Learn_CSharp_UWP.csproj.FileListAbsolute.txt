@@ -229,3 +229,8 @@ D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xaml
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xbf
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_44_Adeptly_Adaptive_Challenge\NewsItemControl.xbf
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\bin\x86\Debug\Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xbf
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.g.i.cs
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.g.cs
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xaml
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Learn_CSharp_UWP\obj\x86\Debug\Pages\Lab\Lab_49_UWP_SoundBoard\MainPage.xbf
