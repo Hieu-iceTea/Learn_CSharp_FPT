@@ -100,3 +100,4 @@ D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Web_Application_Development\Chua_Bai\
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Web_Application_Development\Chua_Bai\WingtipToys\obj\Debug\WingtipToys.csproj.CopyComplete
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Web_Application_Development\Chua_Bai\WingtipToys\obj\Debug\WingtipToys.dll
 D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Web_Application_Development\Chua_Bai\WingtipToys\obj\Debug\WingtipToys.pdb
+D:\Hieu_iceTea\Learn\SEM3\Learn_CSharp_FPT\Web_Application_Development\Chua_Bai\WingtipToys\obj\Debug\WingtipToys.csprojAssemblyReference.cache
