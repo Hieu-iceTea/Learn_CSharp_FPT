@@ -1,1 +1,0 @@
-curl -X PATCH --header "Accept: application/json" --header "Content-Type: application/json" -d '{"productId" : "jenlooper-cactus", "rating" : 5}' https://localhost:5001/products -k

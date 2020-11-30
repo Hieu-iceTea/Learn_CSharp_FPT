@@ -1,8 +1,0 @@
-"args": [
-    "watch",
-    "--project",
-    "${workspaceFolder}/ContosoCrafts.WebSite/ContosoCrafts.WebSite.csproj",
-    "run",
-    "/property:GenerateFullPaths=true",
-    "/consoleloggerparameters:NoSummary"
-],
