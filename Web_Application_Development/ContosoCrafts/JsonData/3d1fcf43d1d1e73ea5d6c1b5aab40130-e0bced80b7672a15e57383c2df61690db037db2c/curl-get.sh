@@ -1,0 +1,1 @@
+curl https://localhost:5001/products -k | jq .[0]

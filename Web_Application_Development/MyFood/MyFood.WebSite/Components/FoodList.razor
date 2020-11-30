@@ -1,0 +1,117 @@
+﻿@using Microsoft.AspNetCore.Components.Web
+@using MyFood.WebSite.Models
+@using MyFood.WebSite.Services
+@inject JsonFileService FoodService
+<!-- Photo Grid-->
+<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="row">
+        @foreach (var food in FoodService.GetFoods())
+        {
+            <div class="col-md-3 col-sm-6 col-12">
+                <img src="@food.Image" alt="@food.Category" style="width:100%">
+                <h3>@food.Title</h3>
+                <p>@((MarkupString)food.Description)</p>
+                <button class="btn btn-sm btn-outline-info"
+                        @onclick="(e => SelectFood(food.Id))"
+                        data-toggle="modal" data-target="#foodModal"
+                        style="position:absolute; top: 350px; right: 30px">
+                    More Info
+                </button>
+            </div>
+        }
+    </div>
+</div>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+
+@if (selectedFood != null)
+{
+    <div class="modal fade" id="foodModal" tabindex="-1" role="dialog" aria-labelledby="foodTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="productTitle">@selectedFood.Title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="card">
+                        <div class="card-img" style="background-image: url('@selectedFood.Image'); height: 500px">
+                        </div>
+                        
+                        <div class="card-body">
+                            <p class="card-text">@((MarkupString)selectedFood.Description)</p>
+                            <p class="card-text">Category: @selectedFood.Category</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    @if (voteCount == 0)
+                    {
+                        <span>Be the first to vote!</span>
+                    }
+                    else
+                    {
+                        <span>@voteCount @voteLabel</span>
+                    }
+
+                    @for (int i = 1; i < 6; i++)
+                    {
+                        var currentStar = i;
+                        if (i <= currentRating)
+                        {
+                            <span class="fas fa-star checked" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                        else
+                        {
+                            <span class="far fa-star" @onclick="(e => SubmitRating(currentStar))"></span>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+}
+
+
+@code {
+    //01
+    Food selectedFood;
+    int selectedFoodId;
+
+    void SelectFood(int foodId)
+    {
+        selectedFoodId = foodId;
+        selectedFood = FoodService.GetFoods().First(x => x.Id == foodId);
+        GetCurrentRating();
+    }
+
+    //02
+    int currentRating = 0;
+    int voteCount = 0;
+    string voteLabel;
+
+    void GetCurrentRating()
+    {
+        if (selectedFood.Ratings == null)
+        {
+            currentRating = 0;
+            voteCount = 0;
+        } else
+        {
+            voteCount = selectedFood.Ratings.Count();
+            voteLabel = voteCount > 1 ? "Votes" : "Vote";
+            currentRating = selectedFood.Ratings.Sum() / voteCount;
+        }
+
+        System.Console.WriteLine($"Current rating for {selectedFood.Id}: {currentRating}");
+    }
+
+    void SubmitRating(int rating)
+    {
+        System.Console.WriteLine($"Rating received for {selectedFood.Id}: {rating}");
+        FoodService.AddRating(selectedFoodId, rating);
+        SelectFood(selectedFoodId);
+    }
+}

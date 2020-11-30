@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\ContosoCrafts\\ContosoCrafts.WedSite\\ContosoCrafts.WedSite.csproj",
+      "projectUniqueName": "D:\\Hieu_iceTea\\Learn\\SEM3\\Learn_CSharp_FPT\\Web_Application_Development\\ContosoCrafts\\Done\\ContosoCrafts\\ContosoCrafts.WedSite\\ContosoCrafts.WedSite.csproj",
       "projectName": "ContosoCrafts.WedSite",
-      "projectPath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\ContosoCrafts\\ContosoCrafts.WedSite\\ContosoCrafts.WedSite.csproj",
+      "projectPath": "D:\\Hieu_iceTea\\Learn\\SEM3\\Learn_CSharp_FPT\\Web_Application_Development\\ContosoCrafts\\Done\\ContosoCrafts\\ContosoCrafts.WedSite\\ContosoCrafts.WedSite.csproj",
       "packagesPath": "C:\\Users\\Hieu_iceTea\\.nuget\\packages\\",
-      "outputPath": "E:\\Hoc_Tap\\Learn_CSharp_FPT\\WAD\\ContosoCrafts\\ContosoCrafts.WedSite\\obj\\",
+      "outputPath": "D:\\Hieu_iceTea\\Learn\\SEM3\\Learn_CSharp_FPT\\Web_Application_Development\\ContosoCrafts\\Done\\ContosoCrafts\\ContosoCrafts.WedSite\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Hieu_iceTea\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -32,6 +32,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -43,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -61,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

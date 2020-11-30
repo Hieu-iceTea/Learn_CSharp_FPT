@@ -1,0 +1,49 @@
+﻿@page
+@using MyFood.WebSite.Components
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+@*<div class="text-center">
+        <h1 class="display-4">My Food</h1>
+        <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    </div>
+
+    @foreach (var food in Model.Foods)
+    {
+        <h2>@food.Title</h2>
+    }*@
+
+
+<!-- Photo Grid-->
+@*<div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="row">
+        @foreach (var food in Model.Foods)
+        {
+            <div class="col-md-3 col-sm-6 col-12">
+                <img src="@food.Image" alt="@food.Category" style="width:100%">
+                <h3>@food.Title</h3>
+                <p>@Html.Raw(food.Description)</p>
+            </div>
+        }
+    </div>
+</div>*@
+
+@(await Html.RenderComponentAsync<FoodList>(RenderMode.ServerPrerendered))
+
+
+<!-- Pagination -->
+<div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+        <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+        <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+</div>
+
+
+<script src="_framework/blazor.server.js"></script>
