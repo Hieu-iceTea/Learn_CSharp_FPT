@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 12 Pro",
+    "price": 999,
+    "img": "https://www.apple.com/v/iphone/home/ap/images/overview/compare/compare_iphone_12_pro__gmn3556ju3am_large.jpg"
+  },
+  {
+    "id": 2,
+    "name": "iPhone 12",
+    "price": 699,
+    "img": "https://www.apple.com/v/iphone/home/ap/images/overview/compare/compare_iphone_12__btq63lk8td7m_large.jpg"
+  },
+  {
+    "id": 3,
+    "name": "iPhone 11",
+    "price": 599,
+    "img": "https://www.apple.com/v/iphone/home/ap/images/overview/compare/compare_iphone_11__bzjboswm5hbm_large.jpg"
+  },
+  {
+    "id": 4,
+    "name": "iPhone SE",
+    "price": 399,
+    "img": "https://www.apple.com/v/iphone/home/ap/images/overview/compare/compare_iphone_se__1uyg4tzyd4ya_large.jpg"
+  },
+  {
+    "id": 5,
+    "name": "iPad Pro",
+    "price": 799,
+    "img": "https://www.apple.com/v/ipad/home/bg/images/overview/compare_ipad_pro__d0h57340ahaq_large.png"
+  },
+  {
+    "id": 6,
+    "name": "iPad Air",
+    "price": 599,
+    "img": "https://www.apple.com/v/ipad/home/bg/images/overview/compare_ipad_air__dlzfpz8gev42_large.png"
+  },
+  {
+    "id": 7,
+    "name": "iPad",
+    "price": 329,
+    "img": "https://www.apple.com/v/ipad/home/bg/images/overview/compare_ipad_10_2__d87l3rz5hzue_large.png"
+  },
+  {
+    "id": 8,
+    "name": "iPad mini",
+    "price": 399,
+    "img": "https://www.apple.com/v/ipad/home/bg/images/overview/compare_ipad_mini__k6cml5algu6i_large.png"
+  }
+]
